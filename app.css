@@ -6,3 +6,62 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+
+/*******     GENERAL STYLING **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #272727;
+  display: block;
+  width: 500px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  color: #333533;
+}
+
+h1 {
+  padding-top: 200px;
+  font-family: 'Alata', sans-serif;
+  font-weight: 300;
+  color: #212529;
+}
+
+fieldset {
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+
+label {
+  margin-left: 5px;
+}
+
+button {
+  background-color: #272727;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  padding: 8px 12px;
+}
+
+fieldset button {
+  margin-top: 10px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.js-hide {
+  display: none;
+}
+
+.alert {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
