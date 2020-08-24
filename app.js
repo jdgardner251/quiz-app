@@ -88,7 +88,7 @@ function generateAnswerStr(question) { // store.questions[questionNumber] this i
   question.answers.forEach(function (answer, i) {
     
     answersStr += `
-      <div id="option-containter-${i}">
+      <div class="option-container" id="option-containter-${i}">
       <input type="radio" name="options" id="option${i + 1}" value=${i} required></input>
       <label for="option${i + 1}">${answer}</label>
       </div>
